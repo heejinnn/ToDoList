@@ -191,12 +191,23 @@ body{
     font-size: 0.8rem;
 }
 
-.edit-input{
+.edit-input{ 
     z-index: 100;
     position: absolute;
     /* background-color: #F4A442; */
-    left : 0;
+    left : 10%;
     height : 1.5rem;
-    width : 100%;
+    width : 80%;
+    text-align: center;
+}
+
+.edit-input .visible{
+    display: block;
+    z-index: 100;
+    position: absolute;
+    /* background-color: #F4A442; */
+    left : 10%;
+    height : 1.5rem;
+    width : 80%;
     text-align: center;
 }
